@@ -1,36 +1,21 @@
-## 🛒 Sales Store Data Analysis — MySQL
+# Sales Store Data Analysis | SQL
 
-## 📌 Project Overview
-Analyzed 2000+ sales records to derive business insights using MySQL.
+## Project Overview
+Analyzed **2000+ sales records** to derive actionable business insights using MySQL.
 
-## 📊 Dataset Info
+## Dataset
 - Total Records: 2003
 - Time Period: 2023
-- Total Revenue: ₹5,91,68,097
+- Total Revenue: ₹5.91 Crore
 
-## 🧹 Data Cleaning
-- ✅ Removed duplicate records
-- ✅ Checked null values
-- ✅ Standardized gender column (Female→F, Male→M)
+## Key Insights
+- Top Product: Sofa (₹7.29 Lakh)
+- Peak Month: October (₹58.86 Lakh)
+- Best Payment Mode: EMI
+- Top Category: Accessories
+- Highest Orders: Age group 46-60 years
+- Delivery Success Rate: Only 23.86%
 
-## 📈 Key Insights
-| Analysis | Finding |
-|----------|---------|
-| 🏆 Top Product | Sofa — ₹7,29,248 |
-| 📅 Peak Month | October — ₹58,86,414 |
-| 💳 Best Payment Mode | EMI — 350 transactions |
-| 🛍️ Top Category | Accessories — ₹1,03,65,306 |
-| 👑 Top Customer | Darshit Mann — ₹5,07,530 |
-| 🔄 Most Returned | Handbag & Belt — 24 each |
-| ⏰ Peak Hour | 11 AM — 100 orders |
-| 👥 Active Age Group | 46-60 years — 704 orders |
-| ⚠️ Delivery Rate | Only 23.86% delivered |
-
-## 🛠️ Tools Used
+## Tools Used
 - MySQL Workbench
-- SQL (DDL, DML, Window Functions, Aggregations)
-
-## 📁 Files
-- `data_cleaning.sql` — Data cleaning queries
-- `analysis.sql` — Business analysis queries
-- `sales_store.csv` — Dataset
+- SQL (Data Cleaning + Analysis + Window Functions)
